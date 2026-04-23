@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wildlife SOS: Save Our Species</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expect">What to Expect</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><button id="toggle-theme">Dark Mode</button></li>
+        </ul>
+    </div>
+
+    <img id="header-img" src="./img/Deer-wildlife.avif" alt="Deer in natural wildlife habitat"/>
+
+    <div class="header-container">
+        <div class="header-item">
+            <h1>Wildlife SOS: Save Our Species</h1>
+        </div>
+        <div class="header-item">
+            <h2>Protect. Preserve. Prosper.</h2>
+            <button class="button">Take Action</button>
+            <button class="button">Explore Species</button>
+        </div>
+    </div>
+
+    <h2 id="about">About the Event</h2>
+    <p>Wildlife SOS: Save Our Species is a three-day awareness and action campaign dedicated to endangered animals and habitat preservation. Hosted by a coalition of conservation groups, this event brings together nature lovers, activists, and communities to celebrate biodiversity and take steps to protect it.</p>
+    <p>Through storytelling, science education, hands-on workshops, and conservation pledges, we aim to spark a movement that leaves a lasting impact. Each day is filled with talks from field experts, documentary screenings, nature walks, and volunteering opportunities with local wildlife organizations.</p>
+
+    <img src="./img/recuedcubs.jpg" alt="Rescued wildlife cubs being cared for"/>
+
+    <h3 id="expect">What to Expect</h3>
+    <h4>Guardians of Nature</h4>
+    <ul>
+        <li><b>Habitat Restoration:</b> <i>Join hands to plant native trees and clean up fragile ecosystems.</i></li>
+        <li><b>Wildlife Workshops:</b> <i>Learn about local endangered species and how to advocate for them. Featuring live virtual meet-ups with animal rescuers and biologists.</i></li>
+        <li><b>Action Zones:</b> <i>Participate in rescue simulations, sign petitions, create posters, and be part of powerful environmental art installations.</i></li>
+        <li><b>Kids’ Adventure Trail:</b> <i>Fun and interactive nature-based scavenger hunts and animal tracks discovery for young wildlife enthusiasts.</i></li>
+        <li><b>Night Talks:</b> <i>Campfire storytelling and moonlight lectures on climate justice, indigenous land rights, and species survival.</i></li>
+    </ul>
+
+    <h2 id="schedule">Event Schedule</h2>
+
+    <img alt="Volunteers planting trees" src="./img/plantingtrees.jpg"/>
+    <h3>Green Roots Rally — Day 1</h3>
+    <p>Start the weekend by planting the seeds of change—literally! Join us for a community reforestation project in partnership with local parks.</p>
+
+    <img alt="Interactive wildlife exhibit" src="./img/owl.jpg"/>
+    <h3>Voices for the Voiceless — Day 2</h3>
+    <p>Step into immersive displays and hear the stories of endangered animals from around the globe. Participate in a guided virtual tour of the Wildlife SOS rescue center.</p>
+
+    <img alt="Evening conservation walk" src="./img/greenary.jpg"/>
+    <h3>Twilight Trek — Day 3</h3>
+    <p>Conclude with a guided nature walk, field journaling workshop, and a reflection circle focused on long-term advocacy and change-making.</p>
+
+    <!-- RSVP -->
+    <div id="rsvp">
+        <h2>RSVP</h2>
+        <div class="rsvp-container">
+            <div class="rsvp-para">
+                <p>Want to make a difference for wildlife? Sign up to attend our 3-day Save Our Species event and be a voice for the voiceless. Whether you love animals, nature, or advocacy, your presence matters!</p>
+            </div>
+            <div class="rsvp-participants" id="rsvp-list">
+                <p>Akash from New York has RSVP'd.</p>
+                <p>Raihan from California has RSVP'd.</p>
+                <p>Rifat from Texas has RSVP'd.</p>
+            </div>
+        </div>
+
+        <!-- RSVP Form -->
+        <div class="form-container">
+            <form id="rsvp-form">
+                <div class="form-field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="state">Home State:</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </form>
+            <button id="rsvp-button">Submit RSVP</button>
+        </div>
+    </div>
+
+    <!-- success modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-container">
+            <div id="modal-item">
+                <p id="modal-text">Thanks for RSVPing!</p>
+            </div>
+            <div id="modal-item">
+                <img src="./img/catimage.jpeg" alt="Flying mascot" id="modal-image" width="150"/>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="links">Explore & Learn More</h2>
+    <ul>
+        <li><a href="https://wildlifesos.org" target="_blank">Wildlife SOS – Official Site</a></li>
+        <li><a href="https://www.worldwildlife.org/species" target="_blank">WWF – Endangered Species List</a></li>
+        <li><a href="https://www.nationalgeographic.com/animals" target="_blank">National Geographic: Wildlife News</a></li>
+        <li><a href="https://www.rainforest-alliance.org/insights/save-endangered-animals/" target="_blank">Rainforest Alliance – How to Help Endangered Animals</a></li>
+    </ul>
+</body>
+</html>
